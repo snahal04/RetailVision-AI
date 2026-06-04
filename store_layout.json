@@ -1,0 +1,75 @@
+{
+  "store_id": "STORE_BLR_002",
+  "clip_start_utc": "2026-03-03T14:00:00Z",
+  "cameras": [
+    {
+      "camera_id": "CAM_ENTRY_01",
+      "video_file": "Entry_CAM.mp4",
+      "role": "entry",
+      "fps_override": null,
+      "entry_line": {
+        "p1": [1286, 243],
+        "p2": [721, 816]
+      },
+      "zones": []
+    },
+    {
+      "camera_id": "CAM_ZONE1_01",
+      "video_file": "Zone1_CAM.mp4",
+      "role": "zone",
+      "zones": [
+        {
+          "zone_id": "SKINCARE",
+          "sku_zone": "MOISTURISER",
+          "polygon_norm": [[0.05, 0.15], [0.55, 0.15], [0.55, 0.85], [0.05, 0.85]]
+        },
+        {
+          "zone_id": "FRAGRANCE",
+          "sku_zone": "PERFUME",
+          "polygon_norm": [[0.55, 0.15], [0.95, 0.15], [0.95, 0.85], [0.55, 0.85]]
+        }
+      ]
+    },
+    {
+      "camera_id": "CAM_BILLING_01",
+      "video_file": "Billing_CAM.mp4",
+      "role": "billing",
+      "zones": [
+        {
+          "zone_id": "BILLING",
+          "sku_zone": "CHECKOUT",
+          "polygon_norm": [[0.1, 0.2], [0.9, 0.2], [0.9, 0.95], [0.1, 0.95]]
+        },
+        {
+          "zone_id": "POS",
+          "sku_zone": "CHECKOUT",
+          "polygon_norm": [[0.35, 0.25], [0.65, 0.25], [0.65, 0.55], [0.35, 0.55]]
+        }
+      ]
+    },
+    {
+      "camera_id": "CAM_BACKDOOR_01",
+      "video_file": "Backdoor_CAM.mp4",
+      "role": "zone",
+      "zones": [
+        {
+          "zone_id": "STOCKROOM_ACCESS",
+          "sku_zone": null,
+          "polygon_norm": [[0.2, 0.1], [0.8, 0.1], [0.8, 0.9], [0.2, 0.9]]
+        }
+      ]
+    },
+    {
+      "camera_id": "CAM_INDOOR_01",
+      "video_file": "Indore_CAM.mp4",
+      "role": "zone",
+      "zones": [
+        {
+          "zone_id": "MAIN_FLOOR",
+          "sku_zone": "GENERAL",
+          "polygon_norm": [[0.05, 0.1], [0.95, 0.1], [0.95, 0.95], [0.05, 0.95]]
+        }
+      ]
+    }
+  ]
+}

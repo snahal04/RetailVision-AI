@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+data/
+*.db
+output/*.jsonl
+output/*.mp4
+yolov8n.pt
+staff_profile.npy
+verify_staff_output.mp4
+.pytest_cache/
+.coverage
+htmlcov/

@@ -1,0 +1,14 @@
+{
+  "total_events": 315,
+  "by_type": {
+    "ENTRY": 2,
+    "EXIT": 3,
+    "REENTRY": 1,
+    "ZONE_ENTER": 181,
+    "ZONE_EXIT": 84,
+    "ZONE_DWELL": 6,
+    "BILLING_QUEUE_JOIN": 31,
+    "BILLING_QUEUE_ABANDON": 7
+  },
+  "unique_visitors": 137
+}
