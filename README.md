@@ -91,6 +91,13 @@ pytest
 
 Requires **>70%** statement coverage on `app/`.
 
+## License
+
+This project code is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+
+Third-party dependencies and their licenses are listed in [THIRD_PARTY_LICENSES.md](THIRD_PARTY_LICENSES.md).
+Important note: `ultralytics` and `ultralytics-thop` are AGPLv3+ licensed, so commercial or redistributed use should be reviewed carefully.
+
 ## Docs
 
 - [DESIGN.md](DESIGN.md) — architecture + AI-assisted decisions  
