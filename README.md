@@ -12,6 +12,8 @@ pip install -r requirements.txt
 python -m pipeline.run
 ```
 
+> Note: real CCTV/video assets are not stored in this repo. Add your own MP4 files locally in the `videos/` folder (for example, `videos/sample_store_video.mp4`) before running the pipeline.
+
 **Terminal 1 — API** (use this if `docker` is not installed):
 
 ```powershell
@@ -101,6 +103,7 @@ Requires **>70%** statement coverage on `app/`.
 |------|------|
 | `pipeline/` | YOLO detection + event emission |
 | `app/` | FastAPI intelligence API |
+| `videos/` | Placeholder media folder; add local MP4s only |
 | `store_layout.json` | Store, cameras, zones |
 | `scripts/` | Feed events, live dashboard |
 | `tests/` | API + schema tests |
